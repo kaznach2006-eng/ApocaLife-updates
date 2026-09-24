@@ -2,24 +2,24 @@
 debug = false
 
 [zones]
-	#Size (blocks) of a danger region cell. Each cell rolls its own danger level.
+	#Scale (blocks) of the smooth danger noise: bigger = larger, smoother zone blobs
 	#Range: 64 ~ 4096
-	regionSize = 256
+	regionSize = 1024
 	#Radius around world spawn that is always a GREEN zone
 	#Range: 0 ~ 10000
 	spawnSafeRadius = 96
-	#Within this distance from spawn regions are mostly YELLOW; beyond it mostly RED
+	#How far (blocks) from civilization (settlements, roads) the land is mostly YELLOW; beyond — RED
 	#Range: 0 ~ 100000
-	yellowRadius = 1500
-	#BLACK regions can only appear this far from spawn
+	yellowRadius = 700
+	#Deep wilderness this far (blocks) from civilization becomes BLACK
 	#Range: 0 ~ 1000000
-	blackMinDistance = 3000
+	blackMinDistance = 1700
 	#Chance for a far region to be BLACK
 	#Range: 0.0 ~ 1.0
 	blackChance = 0.15
-	#Chance for a region to be one level calmer or more dangerous than its surroundings
+	#How much the smooth noise bends zone borders (0 = pure distance rings, 0.5 = very patchy)
 	#Range: 0.0 ~ 0.5
-	pocketChance = 0.1
+	pocketChance = 0.25
 	#YELLOW zone: chance for each item stack to be kept on death
 	#Range: 0.0 ~ 1.0
 	yellowKeepChance = 0.5
