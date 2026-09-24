@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609250027",
+ "version": "0.1.0+202609250031",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -207,7 +207,7 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "04f1310b5a45cb7a2bb850e73a689a974b6bfa26",
+   "sha1": "00fd6d6c87b452e10ca3ecec3652d9cd12ba0175",
    "size": 6798001,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
