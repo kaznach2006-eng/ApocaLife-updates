@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609250122",
+ "version": "0.1.0+202609250129",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -81,8 +81,8 @@
   },
   {
    "path": "config/mtsconfig.json",
-   "sha1": "6540d117c03e134682e251e53ff8ed97ec67fafa",
-   "size": 12952,
+   "sha1": "fdccc96518ca674270a37f8f05b95c4e82ea6777",
+   "size": 12953,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/mtsconfig.json"
   },
   {
@@ -207,8 +207,8 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "0809ee01cc12eeeaef774fe93b2aca1ceab0f2bc",
-   "size": 6804975,
+   "sha1": "71b52bdec1c800b3ae196ff467a2e14f2fa23ba3",
+   "size": 6805844,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
