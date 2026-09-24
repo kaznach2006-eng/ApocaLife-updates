@@ -1,0 +1,265 @@
+{
+	id: "E20854BBB144CB14"
+	group: ""
+	order_index: 0L
+	filename: "new_life"
+	title: "Новая жизнь"
+	icon: "minecraft:compass"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "7EBD2248780D6D9B"
+			title: "Родина"
+			icon: "minecraft:white_banner"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Выберите страну. Город, куда вы попадёте, выбирается случайно."
+				""
+				"У каждой страны свои сильные стороны: одни сильны в промышленности, другие в торговле или военном деле."
+			]
+			tasks: [
+				{
+					id: "D5701C01F0F65132"
+					type: "advancement"
+					advancement: "apocalife:story/chose_country"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "B13F096E9CA38047"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 20L
+				}
+			]
+		}
+		{
+			id: "AEB3C6AB6E5F6DCE"
+			title: "Меню ApocaLife"
+			icon: "minecraft:book"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Нажмите J — там ваше поселение, жители, учёба, страна и гильдия."
+				""
+				"Отметьте задание, когда посмотрите."
+			]
+			tasks: [
+				{
+					id: "CA1FF6879A63C808"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "349788B005F0F6B4"
+					type: "item"
+					item: "minecraft:bread"
+					count: 8L
+				}
+			]
+			dependencies: [
+				"7EBD2248780D6D9B"
+			]
+		}
+		{
+			id: "138F174897B2924E"
+			title: "Дорога в столицу"
+			icon: "minecraft:filled_map"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Доберитесь до столицы своей страны. Дороги между городами уже проложены — по ним безопаснее."
+			]
+			tasks: [
+				{
+					id: "19B4A39CAD0620C1"
+					type: "advancement"
+					advancement: "apocalife:story/visited_capital"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "461442D1798DE301"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 3L
+				}
+				{
+					id: "ABA4FDDD7EC63D64"
+					type: "item"
+					item: "minecraft:leather_boots"
+				}
+			]
+			dependencies: [
+				"AEB3C6AB6E5F6DCE"
+			]
+		}
+		{
+			id: "BEFE57FA7D21B847"
+			title: "Гильдия авантюристов"
+			icon: "minecraft:writable_book"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Найдите доску гильдии у ратуши города и выполните первое задание: охота, сбор или разведка."
+			]
+			tasks: [
+				{
+					id: "32CDA592C8E8895A"
+					type: "advancement"
+					advancement: "apocalife:story/guild_contract"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "737B3C573C70AB24"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+			dependencies: [
+				"138F174897B2924E"
+			]
+		}
+		{
+			id: "3C1DE823EF667327"
+			title: "Ученик"
+			icon: "minecraft:golden_sword"
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"Наберите очки гильдии и получите следующий ранг. Чем выше ранг, тем дороже задания."
+			]
+			tasks: [
+				{
+					id: "C1671D7FB11A806C"
+					type: "advancement"
+					advancement: "apocalife:story/guild_rank"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "851B48FFF33E4008"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10L
+				}
+				{
+					id: "6C19D39C7F146E26"
+					type: "item"
+					item: "magistuarmory:iron_shortsword"
+				}
+			]
+			dependencies: [
+				"BEFE57FA7D21B847"
+			]
+		}
+		{
+			id: "37A1FF44D22CF510"
+			title: "Своё поселение"
+			icon: "minecraft:bell"
+			x: 6.0d
+			y: 1.5d
+			description: [
+				"Поставьте ратушу MineColonies и основайте поселение. Сначала это посёлок: жители, дома, первые рабочие."
+			]
+			tasks: [
+				{
+					id: "1FC8C0656A187AD4"
+					type: "advancement"
+					advancement: "apocalife:story/colony_founder"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "03737CBE3A70C730"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10L
+				}
+				{
+					id: "DCCA31C55C6EE1A5"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32L
+				}
+			]
+			dependencies: [
+				"138F174897B2924E"
+			]
+		}
+		{
+			id: "7BF648928D9AAC4E"
+			title: "Село"
+			icon: "minecraft:emerald"
+			x: 8.0d
+			y: 1.5d
+			description: [
+				"Доведите поселение до уровня «село»: ратуша 2-го уровня и 10 жителей. Откроются рынок и налоги."
+				""
+				"Повышает уровень градостроитель — наймите его в меню (J) или выучитесь сами."
+			]
+			tasks: [
+				{
+					id: "88DBC21BAAD40DB3"
+					type: "advancement"
+					advancement: "apocalife:story/colony_village"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "074B742EED66DBAC"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+			dependencies: [
+				"37A1FF44D22CF510"
+			]
+		}
+		{
+			id: "4E8C47C50CD63CA1"
+			title: "Диплом"
+			icon: "minecraft:paper"
+			x: 6.0d
+			y: 3.0d
+			description: [
+				"Поступите в университет (меню J → Учёба) и сдайте экзамен. Лекции — вечером, сидя в университете."
+			]
+			tasks: [
+				{
+					id: "6BD6B489FB10BA60"
+					type: "advancement"
+					advancement: "apocalife:story/diploma"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "C68C1E0F7DB14052"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 15L
+				}
+				{
+					id: "003EB5CB75BC7443"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 8L
+				}
+			]
+			dependencies: [
+				"138F174897B2924E"
+			]
+		}
+	]
+}

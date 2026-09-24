@@ -1,0 +1,301 @@
+#Extra debug logging for ApocaLife systems
+debug = false
+
+[zones]
+	#Size (blocks) of a danger region cell. Each cell rolls its own danger level.
+	#Range: 64 ~ 4096
+	regionSize = 256
+	#Radius around world spawn that is always a GREEN zone
+	#Range: 0 ~ 10000
+	spawnSafeRadius = 96
+	#Within this distance from spawn regions are mostly YELLOW; beyond it mostly RED
+	#Range: 0 ~ 100000
+	yellowRadius = 1500
+	#BLACK regions can only appear this far from spawn
+	#Range: 0 ~ 1000000
+	blackMinDistance = 3000
+	#Chance for a far region to be BLACK
+	#Range: 0.0 ~ 1.0
+	blackChance = 0.15
+	#Chance for a region to be one level calmer or more dangerous than its surroundings
+	#Range: 0.0 ~ 0.5
+	pocketChance = 0.1
+	#YELLOW zone: chance for each item stack to be kept on death
+	#Range: 0.0 ~ 1.0
+	yellowKeepChance = 0.5
+	#YELLOW zone: spawn chance of monster tiers 1-4 (tags apocalife:tier/1..4)
+	yellowTierChances = [0.5, 0.2, 0.0, 0.0]
+	#RED zone: spawn chance of monster tiers 1-4
+	redTierChances = [1.0, 1.0, 0.3, 0.0]
+	#BLACK zone: spawn chance of monster tiers 1-4 (weak ones thinned out)
+	blackTierChances = [0.5, 1.0, 1.0, 0.6]
+	#RED zone: monsters get +X of base max health (0.25 = +25%)
+	#Range: 0.0 ~ 10.0
+	redHealthBonus = 0.25
+	#Range: 0.0 ~ 10.0
+	redDamageBonus = 0.1
+	#Range: 0.0 ~ 10.0
+	blackHealthBonus = 0.6
+	#Range: 0.0 ~ 10.0
+	blackDamageBonus = 0.3
+
+[infection]
+	#Chance that a damaging hit from an infectious mob infects the player (reduced by armor)
+	#Range: 0.0 ~ 1.0
+	chance = 0.15
+	#Minutes (while online) until stage 2 — fever
+	#Range: 1 ~ 10000
+	stage2Minutes = 10
+	#Range: 1 ~ 10000
+	stage3Minutes = 25
+	#Range: 1 ~ 10000
+	stage4Minutes = 40
+	#Minutes until the infection kills the player
+	#Range: 1 ~ 10000
+	deathMinutes = 60
+	#Number of doctor procedures in a full treatment course
+	#Range: 1 ~ 20
+	courseSessions = 3
+	#Minimum minutes between two procedures
+	#Range: 0 ~ 1000
+	sessionMinIntervalMinutes = 4
+	#A procedure halts the infection for this many minutes; miss the next one and the course restarts
+	#Range: 1 ~ 10000
+	sessionEffectMinutes = 20
+	#Immunity after a completed course
+	#Range: 0 ~ 10000
+	immunityMinutes = 15
+	#Item a doctor takes for one procedure (empty = free). Will move to the currency system later.
+	treatmentCostItem = "minecraft:emerald"
+	#Range: 0 ~ 64
+	treatmentCostCount = 2
+	#A player who dies at stage 3+ rises as a zombie
+	turnOnDeath = true
+
+[zombies]
+	#Noise radius (blocks) of an explosion. Zombie kinds multiply it by their hearing
+	#Range: 0 ~ 256
+	noiseExplosion = 64
+	#Noise radius of a gunshot (TaCZ)
+	#Range: 0 ~ 256
+	noiseGunshot = 48
+	#Noise radius of a gunshot with a silencer/suppressor on the muzzle
+	#Range: 0 ~ 256
+	noiseGunshotSilenced = 12
+	#Noise radius of breaking a block
+	#Range: 0 ~ 256
+	noiseBlockBreak = 10
+	#Noise radius of a sprinting player (checked every second)
+	#Range: 0 ~ 256
+	noiseSprint = 8
+	#How long a zombie remembers a noise and walks to check it
+	#Range: 1 ~ 600
+	investigateSeconds = 30
+	#Walkers and brutes also spawn in light: fraction of lit spawn attempts allowed (runners are night-only)
+	#Range: 0.0 ~ 1.0
+	daySpawnChance = 0.35
+
+[architecture]
+	#Building styles locked until researched in the University (branch 'Architecture').
+	#Format: 'Style pack name=research effect' (effect without namespace = apocalife:effects/<name>).
+	#Styles not listed are available from the start.
+	lockedStyles = ["Urban Birch=style_urban", "Urban Savanna=style_urban", "Lost Mesa City=style_metropolis", "ApocaLife Metro=style_metropolis", "ApocaLife Minimal=style_minimalism", "ApocaLife Modern=style_modern", "Space Wars=style_futurism", "ApocaLife Future=style_hightech"]
+
+[compat]
+	#TaCZ vs zombies (tag apocalife:infectious): body-shot damage multiplier. Aim for the head!
+	#Range: 0.0 ~ 10.0
+	zombieBodyShotDamage = 0.6
+	#TaCZ vs zombies: minimum headshot multiplier (guns with a bigger one keep theirs)
+	#Range: 1.0 ~ 10.0
+	zombieHeadshotMultiplier = 2.5
+	#Apocalypse Now bleeding: damage multiplier (1.0 = original, it deals ~1 heart/s)
+	#Range: 0.0 ~ 1.0
+	bleedingDamage = 0.35
+	#Apocalypse Now severe bleeding: damage multiplier
+	#Range: 0.0 ~ 1.0
+	severeBleedingDamage = 0.3
+	#Apocalypse Now antibiotics don't cure, but slow our infection to this speed (0.5 = half)
+	#Range: 0.0 ~ 1.0
+	antibioticsInfectionSpeed = 0.5
+
+[education]
+	#University research can't finish until a colony member attended the lectures and passed the exam
+	enabled = true
+	#Daily lecture start (game clock hour, 6 = sunrise)
+	#Range: 0 ~ 23
+	lectureHour = 9
+	#Lecture length in game minutes (60 game minutes = 50 real seconds)
+	#Range: 30 ~ 600
+	lectureMinutes = 120
+	#Daily exam start (game clock hour)
+	#Range: 0 ~ 23
+	examHour = 15
+	#How long the exam window stays open, game minutes
+	#Range: 30 ~ 600
+	examMinutes = 120
+	#Lectures (= game days) for a level-1 research course; each research level adds one
+	#Range: 1 ~ 30
+	minLectures = 2
+	#Upper limit of lectures per course
+	#Range: 1 ~ 30
+	maxLectures = 7
+	#Part of the lecture you must spend seated in the university for it to count
+	#Range: 0.1 ~ 1.0
+	attendanceShare = 0.7
+	#Questions per exam
+	#Range: 1 ~ 10
+	examQuestions = 4
+	#Share of correct answers needed to pass
+	#Range: 0.1 ~ 1.0
+	examPassShare = 0.75
+	#Evening lectures for players studying a profession (game clock hour)
+	#Range: 0 ~ 23
+	studyHour = 18
+
+[life]
+	#Citizens need school + a university degree for skilled jobs; they choose a profession themselves
+	enabled = true
+	#Jobs anyone can do without a degree (low pay). Other jobs need a degree in that profession.
+	unskilledJobs = ["minecolonies:deliveryman", "minecolonies:farmer", "minecolonies:fisherman", "minecolonies:lumberjack", "minecolonies:miner", "minecolonies:quarrier", "minecolonies:planter", "minecolonies:composter", "minecolonies:shepherd", "minecolonies:cowboy", "minecolonies:swineherder", "minecolonies:chickenherder", "minecolonies:rabbitherder", "minecolonies:beekeeper", "minecolonies:florist", "minecolonies:undertaker", "minecolonies:cookassistant", "minecolonies:pupil", "minecolonies:student", "minecolonies:knight", "minecolonies:ranger", "minecolonies:druid", "minecolonies:marksman", "minecolonies:huscarl", "minecolonies:cavalry", "minecolonies:archertraining", "minecolonies:combattraining"]
+	#Game days a child must spend as a pupil at school to count as schooled
+	#Range: 0 ~ 100
+	schoolDays = 2
+	#Default university study length for a profession, game days
+	#Range: 1 ~ 100
+	studyDays = 3
+	#Study length per profession: 'job id=days'
+	studyDaysByJob = ["minecolonies:healer=6", "minecolonies:researcher=6", "minecolonies:teacher=5", "minecolonies:enchanter=6", "minecolonies:alchemist=6", "minecolonies:mechanic=5", "minecolonies:builder=4", "minecolonies:chef=4"]
+
+[economy]
+	#Game days in a 'month' (monthly salaries). A week is 7 game days.
+	#Range: 7 ~ 120
+	monthDays = 28
+	#Wage for unskilled jobs: 'amount/day|week|month'
+	unskilledWage = "15/day"
+	#Default wage for skilled jobs
+	skilledWage = "180/week"
+	#Wage per profession: 'job id=amount/day|week|month'
+	wagesByJob = ["minecolonies:healer=1100/month", "minecolonies:researcher=1000/month", "minecolonies:teacher=900/month", "minecolonies:builder=200/week", "minecolonies:deliveryman=12/day"]
+	#Share of every wage that goes to the colony treasury as tax
+	#Range: 0.0 ~ 0.9
+	incomeTax = 0.13
+	#Household spending per adult per game day (food, goods)
+	#Range: 0 ~ 100000
+	adultLivingCost = 9
+	#Household spending per child per game day
+	#Range: 0 ~ 100000
+	childLivingCost = 4
+	#University tuition for one profession, paid by the family to the colony treasury
+	#Range: 0 ~ 1000000
+	tuition = 100
+	#Savings a household starts with when first seen
+	#Range: 0 ~ 1000000
+	startSavings = 60
+	#Colony shops buy items from players at this share of the shop price
+	#Range: 0.0 ~ 1.0
+	sellShare = 0.5
+	#Auto stock: keep this many days of average sales in the colony warehouse (production follows demand)
+	#Range: 1 ~ 30
+	stockBufferDays = 3
+	#Auto stock: at most this many stacks per item (state contracts and orders go above it)
+	#Range: 1 ~ 64
+	stockMaxStacks = 4
+	#Civil servants: their wages come from the colony treasury (others are paid by their trade)
+	stateJobs = ["minecolonies:researcher", "minecolonies:teacher", "minecolonies:healer", "minecolonies:undertaker", "minecolonies:builder", "minecolonies:deliveryman", "minecolonies:knight", "minecolonies:ranger", "minecolonies:druid", "minecolonies:marksman", "minecolonies:huscarl", "minecolonies:cavalry"]
+	#State contracts: what state institutions consume per worker per day, paid by the treasury:
+	#'job=item*count;item*count'. Missing goods are ordered above the trade limit.
+	stateNeeds = ["minecolonies:knight=minecraft:bread*2", "minecolonies:huscarl=minecraft:bread*2", "minecolonies:druid=minecraft:bread*2", "minecolonies:ranger=minecraft:bread*2;minecraft:arrow*8", "minecolonies:marksman=minecraft:bread*2;minecraft:arrow*8", "minecolonies:cavalry=minecraft:bread*2;minecraft:wheat*4", "minecolonies:healer=minecraft:honey_bottle*1;minecraft:paper*1", "minecolonies:researcher=minecraft:paper*4;minecraft:book*1", "minecolonies:teacher=minecraft:paper*2;minecraft:book*1"]
+
+[outbreak]
+	#'progression': no zombies/infection until the world reaches the Modern era, then an outbreak
+	#after a few days; 'always': zombies from the very start
+	mode = "progression"
+	#Game days from the moment conditions are met (Modern era + factories) to the outbreak (min / max)
+	#Range: 0 ~ 1000
+	delayMinDays = 5
+	#Range: 0 ~ 1000
+	delayMaxDays = 15
+	#Weapon/vehicle factories (research branch 'Industry') that must exist in the whole world first
+	#Range: 0 ~ 100
+	minFactories = 2
+
+[world]
+	#Distance (blocks) from the central country (Veloria) to the other capitals
+	#Range: 500 ~ 100000
+	countryDistance = 3000
+	#Big cities per country besides the capital (players start near one of them)
+	#Range: 0 ~ 10
+	citiesPerCountry = 3
+	#Radius around capitals and big cities that is always a GREEN (safe) zone
+	#Range: 0 ~ 5000
+	citySafeRadius = 320
+	#New players choose a country on first join and start near one of its cities
+	chooseCountry = true
+	#Price factor for a country's speciality goods in its settlements (0.85 = 15% cheaper)
+	#Range: 0.1 ~ 1.0
+	countryGoodsDiscount = 0.85
+	#Villages around each city and capital (they are subordinate to it)
+	#Range: 0 ~ 6
+	villagesPerCity = 2
+	#Lay roads between villages, cities and capitals (paved by era, near players)
+	roads = true
+	#Found MineColonies colonies without a player owner on the map's capitals, cities and villages
+	npcCities = true
+	#Build all settlements of the country map right after the world is created (in the background, one by one)
+	#Off: a settlement is built when a player comes close (cityFoundRadius)
+	prebuildSettlements = true
+	#Rich countries at peace found new villages on free land during the game
+	countryExpansion = true
+	#How many new villages each country may found during the game
+	#Range: 0 ~ 20
+	maxNewSettlementsPerCountry = 3
+	#After the outbreak: a new place (nest, convoy, checkpoint, evacuation camp, abandoned building) appears
+	#in explored land every N days (0 = never)
+	#Range: 0 ~ 100
+	incidentEveryDays = 2
+	#Price of a settlement charter (0 = founding a colony is free). A player needs the charter of the
+	#country whose land it is to place his first town hall; ambassadors and governors sell it
+	#Range: 0 ~ 1000000
+	charterPrice = 400
+	#Players must finish school (morning lessons in a school building) before university
+	playerSchool = true
+	#Only players with a pilot diploma can fly aircraft (others buy flights at airports)
+	pilotLicense = true
+	#A city is founded (built instantly) when a player comes this close (blocks)
+	#Range: 32 ~ 1024
+	cityFoundRadius = 192
+	#Treasury cost of one building level an NPC mayor builds or upgrades
+	#Range: 0 ~ 1000000
+	cityBuildCostPerLevel = 400
+	#Share of a business's daily profit paid to the settlement treasury
+	#Range: 0.0 ~ 1.0
+	businessTax = 0.15
+	#Percent of the treasury a village pays its city and a city pays the capital every day
+	#Range: 0 ~ 100
+	cityTributePercent = 10
+	#Game days an NPC university spends per research depth (halved in the country's own branches,
+	#divided by the university level)
+	#Range: 1 ~ 100
+	cityResearchDaysPerDepth = 2
+	#Treasury cost per research depth when an NPC city starts a research
+	#Range: 0 ~ 1000000
+	cityResearchCostPerDepth = 300
+
+[npc_gear]
+	#Guards, workers and couriers use the gear of their colony's era (bought from the treasury)
+	eraGear = true
+	#Guards with TaCZ guns shoot at hostiles (industrial era and later)
+	npcGuns = true
+	#Daily ammunition cost per armed guard, paid by the treasury
+	#Range: 0 ~ 10000
+	gunUpkeep = 8
+
+[accounts]
+	#Only players signed in via the ApocaLife launcher may play (offline-mode server protection)
+	requireLauncherLogin = false
+	#ApocaLife account server address, e.g. https://auth.example.com
+	authServer = "https://clanzone-db.duckdns.org/apocalife"
+	#Seconds a player has to confirm the launcher sign-in before being disconnected
+	#Range: 5 ~ 300
+	checkSeconds = 20
+

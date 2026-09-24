@@ -1,0 +1,619 @@
+{
+ "name": "ApocaLife",
+ "version": "0.1.0+202609250027",
+ "minecraft": "1.20.1",
+ "forge": "47.4.23",
+ "managed": [
+  "mods"
+ ],
+ "files": [
+  {
+   "path": "config/Apocalypse Now Config.toml",
+   "sha1": "3068f9b6d616d3fbe4d00dade39a1545b975ad14",
+   "size": 2110,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/Apocalypse%20Now%20Config.toml"
+  },
+  {
+   "path": "config/Undead_mobs.toml",
+   "sha1": "a7cd0e949f4a8ae3b86bd3147733611c41c6233e",
+   "size": 3266,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/Undead_mobs.toml"
+  },
+  {
+   "path": "config/apocalife-common.toml",
+   "sha1": "89ad3849e86949adc34c63c23c6c324b08ed4b43",
+   "size": 13094,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/apocalife-common.toml"
+  },
+  {
+   "path": "config/ftbquests/quests/chapter_groups.snbt",
+   "sha1": "9228c43ad409809ffd47efec6fa9500cb203dee4",
+   "size": 25,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapter_groups.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/genesis.snbt",
+   "sha1": "fc241ca9f2df6a0ae8f6201767a7d85352a2214a",
+   "size": 5186,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/genesis.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/new_life.snbt",
+   "sha1": "9964491e4011ada1eab533ab6ff817a0c2bb6a7f",
+   "size": 5957,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/new_life.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/outbreak.snbt",
+   "sha1": "f3eccee23f205447a4ae7ab3339da43d5a30e92c",
+   "size": 3033,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/outbreak.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/path.snbt",
+   "sha1": "e2d86ec78ded5510db06172490c40d2404cdb716",
+   "size": 3088,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/path.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/progress.snbt",
+   "sha1": "6d46086b904ad1d365419c58bd4cec562cd3b125",
+   "size": 3960,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/progress.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/chapters/shadows.snbt",
+   "sha1": "ed7b79ce10ed139308cdf167db617e97cc38f7ff",
+   "size": 3262,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/shadows.snbt"
+  },
+  {
+   "path": "config/ftbquests/quests/data.snbt",
+   "sha1": "565e3ddc53e3b2787e37fbd372e2d6c3b5a37d9f",
+   "size": 409,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/data.snbt"
+  },
+  {
+   "path": "config/hordes-common.toml",
+   "sha1": "fc19b3e0a0676cce3ed11ca37fece6e372cf1c49",
+   "size": 6216,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/hordes-common.toml"
+  },
+  {
+   "path": "config/mtsconfig.json",
+   "sha1": "6540d117c03e134682e251e53ff8ed97ec67fafa",
+   "size": 12952,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/mtsconfig.json"
+  },
+  {
+   "path": "defaultconfigs/minecolonies-server.toml",
+   "sha1": "a5ab545f37049b19efd5471f18eca63f39337fb6",
+   "size": 311,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/defaultconfigs/minecolonies-server.toml"
+  },
+  {
+   "path": "mods/Atlas Lib-1.20.1-1.1.12.jar",
+   "sha1": "17534bfd6878afc2da5d990fe6fc348b2606530c",
+   "size": 124436,
+   "url": "https://cdn.modrinth.com/data/G6VHtQr4/versions/PKJi0BrP/Atlas%20Lib-1.20.1-1.1.12.jar"
+  },
+  {
+   "path": "mods/AttributeFix-Forge-1.20.1-21.0.5.jar",
+   "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
+   "size": 19499,
+   "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/ihWybkI9/AttributeFix-Forge-1.20.1-21.0.5.jar"
+  },
+  {
+   "path": "mods/BrewinAndChewin-1.20.1-3.2.1.jar",
+   "sha1": "b11a91386ef9da2569b69fd4c229b1c31dcc2eb9",
+   "size": 1206255,
+   "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/9myDFPCD/BrewinAndChewin-1.20.1-3.2.1.jar"
+  },
+  {
+   "path": "mods/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar",
+   "sha1": "088d7c7066e0471cb2f538a9cf1c2a5471cca0ad",
+   "size": 10846030,
+   "url": "https://cdn.modrinth.com/data/vFAmwl6B/versions/CaWlRoYD/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar"
+  },
+  {
+   "path": "mods/DungeonsArise-1.20.x-2.1.58-release.jar",
+   "sha1": "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5",
+   "size": 8762342,
+   "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/6hQpx5Tc/DungeonsArise-1.20.x-2.1.58-release.jar"
+  },
+  {
+   "path": "mods/FarmersDelight-1.20.1-1.3.4.jar",
+   "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+   "size": 3311051,
+   "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar"
+  },
+  {
+   "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+   "sha1": "bba0b08fe76b28b35243fee53f99d54a18153b53",
+   "size": 87551,
+   "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+  },
+  {
+   "path": "mods/Immersive Vehicles-1.20.1-24.0.0.jar",
+   "sha1": "efe6962bf0304eb7ac234daa75551bf8e30ef3b7",
+   "size": 6254897,
+   "url": "https://cdn.modrinth.com/data/BCzBuhJ5/versions/xBHmZvmC/Immersive%20Vehicles-1.20.1-24.0.0.jar"
+  },
+  {
+   "path": "mods/MTS Official Pack-1.20.1-V29.jar",
+   "sha1": "9307186fe7f109f0fcc8397bb4457cb956822b88",
+   "size": 70997298,
+   "url": "https://cdn.modrinth.com/data/C7TiPPJz/versions/PNN5h914/MTS%20Official%20Pack-1.20.1-V29.jar"
+  },
+  {
+   "path": "mods/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+   "sha1": "aaf4fb2289c085f758032dc0537ba40f10f3df89",
+   "size": 160886,
+   "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/WMrhrybF/SereneSeasons-forge-1.20.1-9.1.0.3.jar"
+  },
+  {
+   "path": "mods/Steam_Rails-1.7.3+forge-mc1.20.1.jar",
+   "sha1": "5f904126d942cdbd272a5254ec6145851e5e1e7a",
+   "size": 17042037,
+   "url": "https://cdn.modrinth.com/data/ZzjhlDgM/versions/7Uk6lWkU/Steam_Rails-1.7.3%2Bforge-mc1.20.1.jar"
+  },
+  {
+   "path": "mods/THEUNDEADREVAMPED_2.1e_1.20.1.jar",
+   "sha1": "0fab0e0074770bb7aefbdfc896db13e5b7e28bef",
+   "size": 8064609,
+   "url": "https://cdn.modrinth.com/data/hhfNpvRV/versions/2AKAEU8N/THEUNDEADREVAMPED_2.1e_1.20.1.jar"
+  },
+  {
+   "path": "mods/The-Hordes-1.20.1-1.6.3i-all.jar",
+   "sha1": "cb28f5be21577618c05cef203b1eb06ecddb3cb1",
+   "size": 619598,
+   "url": "https://cdn.modrinth.com/data/O3HDffUR/versions/WMyMpstF/The-Hordes-1.20.1-1.6.3i-all.jar"
+  },
+  {
+   "path": "mods/Towns-and-Towers-1.12-Fabric+Forge.jar",
+   "sha1": "5a28ec56457cf1bf154e993cf73dba0428a7921b",
+   "size": 2864275,
+   "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/7ZwnSrVW/Towns-and-Towers-1.12-Fabric%2BForge.jar"
+  },
+  {
+   "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+   "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+   "size": 370524,
+   "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar"
+  },
+  {
+   "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+   "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+   "size": 792381,
+   "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/kPiQ6v4q/YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+  },
+  {
+   "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+   "sha1": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
+   "size": 492998,
+   "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/kVO57zxB/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+  },
+  {
+   "path": "mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+   "sha1": "3730238c56edca4bb5b2238e1314aec572ced385",
+   "size": 473564,
+   "url": "https://cdn.modrinth.com/data/kidLKymU/versions/rwiShgsc/YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
+  },
+  {
+   "path": "mods/[1.20.1] SecurityCraft v1.10.2.1.jar",
+   "sha1": "6184ca6af68a0a4e8ca4dd28a542b5d1a6c2e3ab",
+   "size": 4995865,
+   "url": "https://cdn.modrinth.com/data/v8jzRtAt/versions/PhNy7dJx/%5B1.20.1%5D%20SecurityCraft%20v1.10.2.1.jar"
+  },
+  {
+   "path": "mods/apocalife-0.1.0.jar",
+   "sha1": "04f1310b5a45cb7a2bb850e73a689a974b6bfa26",
+   "size": 6798001,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
+  },
+  {
+   "path": "mods/apocalypsenow-3.0.5-forge-1.20.1.jar",
+   "sha1": "cedda66c80ff8c1235a0ae3c017d4fc8ec143d1e",
+   "size": 9346043,
+   "url": "https://cdn.modrinth.com/data/itxv4X52/versions/w2yMHZES/apocalypsenow-3.0.5-forge-1.20.1.jar"
+  },
+  {
+   "path": "mods/architectury-9.2.14-forge.jar",
+   "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+   "size": 580602,
+   "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+  },
+  {
+   "path": "mods/astikorcartsredux-1.2.5.jar",
+   "sha1": "77a95e6f367d286d903ea2bc2aa7145f2ec7108f",
+   "size": 530548,
+   "url": "https://cdn.modrinth.com/data/mnLFouB0/versions/I8Wr3Oid/astikorcartsredux-1.2.5.jar"
+  },
+  {
+   "path": "mods/blockui-1.20.1-1.0.194-snapshot.jar",
+   "sha1": "7081dc1fa98a0d5a86f7f2e125a367f923a5ee52",
+   "size": 391051,
+   "url": "https://mediafilez.forgecdn.net/files/7606/230/blockui-1.20.1-1.0.194-snapshot.jar"
+  },
+  {
+   "path": "mods/blueprint-1.20.1-7.1.5.jar",
+   "sha1": "78d5ce605ee1c19396fa59c45f541b99e1086768",
+   "size": 1160817,
+   "url": "https://cdn.modrinth.com/data/VsM5EDoI/versions/ZQKDh6gd/blueprint-1.20.1-7.1.5.jar"
+  },
+  {
+   "path": "mods/butchercraft-2.4.1.jar",
+   "sha1": "3a15ca67da71138922f8503063eba6a143d36a65",
+   "size": 1900376,
+   "url": "https://cdn.modrinth.com/data/MT2Xm0ih/versions/Ef6GKQqY/butchercraft-2.4.1.jar"
+  },
+  {
+   "path": "mods/canary-mc1.20.1-0.3.3.jar",
+   "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850",
+   "size": 594191,
+   "url": "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar"
+  },
+  {
+   "path": "mods/cloth-config-11.1.136-forge.jar",
+   "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+   "size": 1181413,
+   "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar"
+  },
+  {
+   "path": "mods/cluttered-[Forge]-3.0.3-1.20.1.jar",
+   "sha1": "c1dca582de21cc540f1a84188db40d65d14c8153",
+   "size": 5551679,
+   "url": "https://cdn.modrinth.com/data/UnAEo77V/versions/ROs8Cnzz/cluttered-%5BForge%5D-3.0.3-1.20.1.jar"
+  },
+  {
+   "path": "mods/coroutil-forge-1.20.1-1.3.7.jar",
+   "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
+   "size": 64187,
+   "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar"
+  },
+  {
+   "path": "mods/corpse-forge-1.20.1-1.0.23.jar",
+   "sha1": "78a776f057588a84a86c57dbe376b9b26f69f2c4",
+   "size": 245643,
+   "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/7fc0hJN6/corpse-forge-1.20.1-1.0.23.jar"
+  },
+  {
+   "path": "mods/create-1.20.1-6.0.8.jar",
+   "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+   "size": 19170905,
+   "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar"
+  },
+  {
+   "path": "mods/createaddition-1.20.1-1.3.3.jar",
+   "sha1": "c7d464c451fdc2979bc29a67d7eec2a30858af12",
+   "size": 1577313,
+   "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar"
+  },
+  {
+   "path": "mods/createdieselgenerators-1.20.1-1.3.12.jar",
+   "sha1": "416ea3d5c1190246369bbcfa32e5e86597402264",
+   "size": 3128610,
+   "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/DTQVvA5H/createdieselgenerators-1.20.1-1.3.12.jar"
+  },
+  {
+   "path": "mods/cristellib-1.1.6-forge.jar",
+   "sha1": "524ecf0f93f28be2f5db21d87dd81bdbc1a450e1",
+   "size": 431318,
+   "url": "https://cdn.modrinth.com/data/cl223EMc/versions/DOsSK4NK/cristellib-1.1.6-forge.jar"
+  },
+  {
+   "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+   "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+   "size": 398066,
+   "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar"
+  },
+  {
+   "path": "mods/domum_ornamentum-1.20.1-1.0.304-snapshot-universal.jar",
+   "sha1": "166c70ed9f958aa79c3f30a0bd84e3bf6fc3b47f",
+   "size": 1180558,
+   "url": "https://mediafilez.forgecdn.net/files/8765/962/domum_ornamentum-1.20.1-1.0.304-snapshot-universal.jar"
+  },
+  {
+   "path": "mods/e4mc-forge-6.2.1.jar",
+   "sha1": "6fc90baef39cff5f9466ddf39f4421e3e9475308",
+   "size": 1297847,
+   "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/CUKdAmgx/e4mc-forge-6.2.1.jar"
+  },
+  {
+   "path": "mods/easy_npc-forge-1.20.1-7.12.1.jar",
+   "sha1": "91f9131a1e83eee97071986de6c2c3c803f113cd",
+   "size": 2962197,
+   "url": "https://cdn.modrinth.com/data/Epm6R3P2/versions/b2koOKsW/easy_npc-forge-1.20.1-7.12.1.jar"
+  },
+  {
+   "path": "mods/easy_npc_bundle-forge-1.20.1-7.12.1.jar",
+   "sha1": "e61796be64007f7d3831ac7ad2a43abf58b158fc",
+   "size": 25441,
+   "url": "https://cdn.modrinth.com/data/CgGEe1h3/versions/KWOV0VKY/easy_npc_bundle-forge-1.20.1-7.12.1.jar"
+  },
+  {
+   "path": "mods/easy_npc_config_ui-forge-1.20.1-7.12.1.jar",
+   "sha1": "e9cd504114a48303e6520ed643f20c62976274a8",
+   "size": 1092567,
+   "url": "https://cdn.modrinth.com/data/uTGjf7vA/versions/swcRILIX/easy_npc_config_ui-forge-1.20.1-7.12.1.jar"
+  },
+  {
+   "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+   "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+   "size": 1320675,
+   "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
+  },
+  {
+   "path": "mods/environmental-1.20.1-4.1.2.jar",
+   "sha1": "2c110c43d77841924bb2cf08ae7656a104f951f9",
+   "size": 8082615,
+   "url": "https://cdn.modrinth.com/data/OqtiAZcV/versions/DA9khYQj/environmental-1.20.1-4.1.2.jar"
+  },
+  {
+   "path": "mods/epic-knights-1.20.1-forge-10.15.jar",
+   "sha1": "8f6019735436fb5a0056916e25f62b363baddafa",
+   "size": 2904252,
+   "url": "https://cdn.modrinth.com/data/L6jvzao4/versions/gJ59URg4/epic-knights-1.20.1-forge-10.15.jar"
+  },
+  {
+   "path": "mods/ferritecore-6.0.1-forge.jar",
+   "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+   "size": 123034,
+   "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar"
+  },
+  {
+   "path": "mods/framework-forge-1.20.1-0.8.0.jar",
+   "sha1": "27347879f8760a7bc0b4bd71977abc50e498811c",
+   "size": 383868,
+   "url": "https://mediafilez.forgecdn.net/files/7573/740/framework-forge-1.20.1-0.8.0.jar"
+  },
+  {
+   "path": "mods/ftb-library-forge-2001.2.13.jar",
+   "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+   "size": 780558,
+   "url": "https://mediafilez.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar"
+  },
+  {
+   "path": "mods/ftb-quests-forge-2001.4.22.jar",
+   "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+   "size": 1255469,
+   "url": "https://mediafilez.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar"
+  },
+  {
+   "path": "mods/ftb-teams-forge-2001.3.2.jar",
+   "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+   "size": 252579,
+   "url": "https://mediafilez.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar"
+  },
+  {
+   "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+   "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+   "size": 1038209,
+   "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar"
+  },
+  {
+   "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar",
+   "sha1": "f1b9a009529134c736c59d6d192d53a4a25e5e5f",
+   "size": 7111059,
+   "url": "https://cdn.modrinth.com/data/pJmCFF0p/versions/N7wZwOFy/handcrafted-forge-1.20.1-3.0.6.jar"
+  },
+  {
+   "path": "mods/immersive_aircraft-1.5.0+1.20.1-forge.jar",
+   "sha1": "dceb59fc5dbfa30625bfa56256480708e0c58419",
+   "size": 2441036,
+   "url": "https://cdn.modrinth.com/data/x3HZvrj6/versions/aDUlOdzA/immersive_aircraft-1.5.0%2B1.20.1-forge.jar"
+  },
+  {
+   "path": "mods/jei-1.20.1-forge-15.20.0.112.jar",
+   "sha1": "f12b3781af6337794ae6e010420a97585360ea2f",
+   "size": 1385600,
+   "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/4r3Kp7U7/jei-1.20.1-forge-15.20.0.112.jar"
+  },
+  {
+   "path": "mods/kotlinforforge-4.12.0-all.jar",
+   "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+   "size": 7442998,
+   "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar"
+  },
+  {
+   "path": "mods/kubejs-forge-2001.6.5-build.26.jar",
+   "sha1": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae",
+   "size": 1658792,
+   "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar"
+  },
+  {
+   "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
+   "sha1": "f92ec8698f4aa48807b01ccfddf4b379cbc9d1e6",
+   "size": 3751172,
+   "url": "https://cdn.modrinth.com/data/TQr3t8Sb/versions/BsBOQNzX/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
+  },
+  {
+   "path": "mods/letsdo-farm_and_charm-forge-1.0.14.jar",
+   "sha1": "4db017c18fff8356e1aa5f0e9c683f1af30bec2b",
+   "size": 2328624,
+   "url": "https://cdn.modrinth.com/data/HJetCzWo/versions/9fzY3YV6/letsdo-farm_and_charm-forge-1.0.14.jar"
+  },
+  {
+   "path": "mods/letsdo-meadow-forge-1.3.25.jar",
+   "sha1": "da7d934ff35f03279bee6597362f30d2aea7462f",
+   "size": 2676511,
+   "url": "https://cdn.modrinth.com/data/ra7o6Sl7/versions/phZQOZzG/letsdo-meadow-forge-1.3.25.jar"
+  },
+  {
+   "path": "mods/lightmanscurrency-1.20.1-2.3.0.5.jar",
+   "sha1": "e70e43c28fd21f1ff4a484176625afd57ecec1cb",
+   "size": 10445393,
+   "url": "https://cdn.modrinth.com/data/wvMc8AJt/versions/eAALa47O/lightmanscurrency-1.20.1-2.3.0.5.jar"
+  },
+  {
+   "path": "mods/lootr-forge-1.20-0.7.35.94.jar",
+   "sha1": "1ec77a7df8adbf3290a296bf25b8f99f37a60020",
+   "size": 463485,
+   "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/mWTXC1ZX/lootr-forge-1.20-0.7.35.94.jar"
+  },
+  {
+   "path": "mods/lostcities-1.20-7.5.5.jar",
+   "sha1": "7119a9e3b1b83037e618eb98e0331684a19e2b4a",
+   "size": 1420565,
+   "url": "https://cdn.modrinth.com/data/8VDCUS3b/versions/Ec9sXB06/lostcities-1.20-7.5.5.jar"
+  },
+  {
+   "path": "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+   "sha1": "c05189646bbde5c0d4486b93de0d707115f8445c",
+   "size": 2174615,
+   "url": "https://cdn.modrinth.com/data/dtWC90iB/versions/mvGf4LNK/mcw-furniture-3.4.1-mc1.20.1forge.jar"
+  },
+  {
+   "path": "mods/mcw-lights-1.1.5-mc1.20.1forge.jar",
+   "sha1": "76dde38745ad436f2784f71939dc0941d7d51c6e",
+   "size": 547779,
+   "url": "https://cdn.modrinth.com/data/w4an97C2/versions/H1a9Tx4h/mcw-lights-1.1.5-mc1.20.1forge.jar"
+  },
+  {
+   "path": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+   "sha1": "214da89b2153d496343bde8626283975e358edbd",
+   "size": 1320692,
+   "url": "https://cdn.modrinth.com/data/C7I0BCni/versions/SSIlzrPf/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar"
+  },
+  {
+   "path": "mods/mezz_config-1.20.1-forge-0.6.3.jar",
+   "sha1": "42f76614ca32312c02293124649acdf61ffde151",
+   "size": 345949,
+   "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/euqS2osE/mezz_config-1.20.1-forge-0.6.3.jar"
+  },
+  {
+   "path": "mods/minecolonies-1.20.1-1.1.1295-snapshot.jar",
+   "sha1": "8146bc7c44ed27b0ffbbc762d21e559cff29311b",
+   "size": 78118340,
+   "url": "https://mediafilez.forgecdn.net/files/8945/185/minecolonies-1.20.1-1.1.1295-snapshot.jar"
+  },
+  {
+   "path": "mods/modernfix-forge-5.27.83+mc1.20.1.jar",
+   "sha1": "24109106b51846d387aa00c06d1445c35410c31c",
+   "size": 1003230,
+   "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/jAZ7Ge3d/modernfix-forge-5.27.83%2Bmc1.20.1.jar"
+  },
+  {
+   "path": "mods/multipiston-1.20-0.0.47-snapshot.jar",
+   "sha1": "11b4ee209c6fba7991f25c50c0cd6376c1362dbf",
+   "size": 39567,
+   "url": "https://mediafilez.forgecdn.net/files/7097/889/multipiston-1.20-0.0.47-snapshot.jar"
+  },
+  {
+   "path": "mods/naturalist-5.0pre4+forge-1.20.1.jar",
+   "sha1": "5aed5b241ee524b9473cf156053545904eb74517",
+   "size": 3807415,
+   "url": "https://cdn.modrinth.com/data/F8BQNPWX/versions/wnR21jg1/naturalist-5.0pre4%2Bforge-1.20.1.jar"
+  },
+  {
+   "path": "mods/nhatjs_furniture_forge+1.20.1-1.0.5.jar",
+   "sha1": "0c6b9cf416344e47053c813f726c9779584f3aa3",
+   "size": 14073284,
+   "url": "https://cdn.modrinth.com/data/oFmiHncm/versions/pkOE3RqO/nhatjs_furniture_forge%2B1.20.1-1.0.5.jar"
+  },
+  {
+   "path": "mods/open-parties-and-claims-forge-1.20.1-0.31.6.jar",
+   "sha1": "cb5a9d300cdc49b9a7c61d27fbc17d8a7b5c3810",
+   "size": 1830866,
+   "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/3aml2k9o/open-parties-and-claims-forge-1.20.1-0.31.6.jar"
+  },
+  {
+   "path": "mods/puffish_skills-0.19.1-1.20-forge.jar",
+   "sha1": "3b1f562f272dfcb735d40c3d879fb21dcbb06588",
+   "size": 647254,
+   "url": "https://cdn.modrinth.com/data/hqQqvaa4/versions/Ikp1oR0C/puffish_skills-0.19.1-1.20-forge.jar"
+  },
+  {
+   "path": "mods/recruits-1.20.1-1.15.2.jar",
+   "sha1": "8d2ed3f0ab18c67a1d9394526bcae47b3ec162ab",
+   "size": 2811101,
+   "url": "https://cdn.modrinth.com/data/WOg9lm4u/versions/2zXpVxK4/recruits-1.20.1-1.15.2.jar"
+  },
+  {
+   "path": "mods/refurbished_furniture-forge-1.20.1-1.0.20.jar",
+   "sha1": "ffb68135b88bdbb25224378c76daf922c3f4c322",
+   "size": 6689588,
+   "url": "https://mediafilez.forgecdn.net/files/7110/922/refurbished_furniture-forge-1.20.1-1.0.20.jar"
+  },
+  {
+   "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+   "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
+   "size": 432753,
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar"
+  },
+  {
+   "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+   "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+   "size": 1798244,
+   "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
+  },
+  {
+   "path": "mods/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+   "sha1": "efc831296f60a59792af142534d1c6dd1dff7f3f",
+   "size": 1223451,
+   "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/XxOZuQnU/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar"
+  },
+  {
+   "path": "mods/sophisticatedcore-1.20.1-1.5.1.2335.jar",
+   "sha1": "24d7f2ee72127b7f1148245e57979e87b0b189ec",
+   "size": 1734797,
+   "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/1Xl7lP0L/sophisticatedcore-1.20.1-1.5.1.2335.jar"
+  },
+  {
+   "path": "mods/structurize-1.20.1-1.0.819-snapshot.jar",
+   "sha1": "fb13f3ed0ae8413da6398abcd1ee06f85e0df958",
+   "size": 1129641,
+   "url": "https://mediafilez.forgecdn.net/files/8829/727/structurize-1.20.1-1.0.819-snapshot.jar"
+  },
+  {
+   "path": "mods/superbwarfare-0.8.9.1-hotfix-mc1.20.1-993063bed-all.jar",
+   "sha1": "cd143b04ea8245243624c720ddd482c3aea0521e",
+   "size": 42162514,
+   "url": "https://cdn.modrinth.com/data/Cd3DYqzn/versions/mHmtMuKF/superbwarfare-0.8.9.1-hotfix-mc1.20.1-993063bed-all.jar"
+  },
+  {
+   "path": "mods/tacz-1.20.1-1.1.8-hotfix.jar",
+   "sha1": "bddafeea4c9c1132ed720c30fbaedfe5ab25e846",
+   "size": 57465167,
+   "url": "https://cdn.modrinth.com/data/SzzJttH8/versions/yOVIzIJR/tacz-1.20.1-1.1.8-hotfix.jar"
+  },
+  {
+   "path": "mods/towntalk-1.20.1-1.1.0.jar",
+   "sha1": "03e6488b9e762888d1d187d5cf73a60695b63c52",
+   "size": 49194778,
+   "url": "https://mediafilez.forgecdn.net/files/5355/511/towntalk-1.20.1-1.1.0.jar"
+  },
+  {
+   "path": "mods/trotting_wagons-1.0.4.jar",
+   "sha1": "5fea9ad2835a3164bc29ad4c708a50bcd7b0a153",
+   "size": 1399413,
+   "url": "https://cdn.modrinth.com/data/X8CywXiK/versions/nLF9Zc6I/trotting_wagons-1.0.4.jar"
+  },
+  {
+   "path": "mods/voicechat-forge-1.20.1-2.6.24.jar",
+   "sha1": "439106dd91d6c9bd31431c31497332cfde57ab98",
+   "size": 4939841,
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/lWvbAZ3P/voicechat-forge-1.20.1-2.6.24.jar"
+  },
+  {
+   "path": "mods/xaerominimap-forge-1.20.1-26.5.0.jar",
+   "sha1": "718a4339f6dad3a56b6e7243e62febfb643b7151",
+   "size": 2195399,
+   "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Juh6inLY/xaerominimap-forge-1.20.1-26.5.0.jar"
+  },
+  {
+   "path": "mods/xaeroworldmap-forge-1.20.1-1.46.0.jar",
+   "sha1": "4906476a6a0a7e64772db17b3e707fdd4bbbc0fb",
+   "size": 1425022,
+   "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/rlPmwaQX/xaeroworldmap-forge-1.20.1-1.46.0.jar"
+  },
+  {
+   "path": "mods/zombieawareness-1.20.1-1.13.1.jar",
+   "sha1": "173c30c8918da57be9398b3687ea19a81455c2c1",
+   "size": 291139,
+   "url": "https://cdn.modrinth.com/data/mMTOWOaA/versions/vmo9rLxO/zombieawareness-1.20.1-1.13.1.jar"
+  }
+ ],
+ "server": "130.61.182.127:25565",
+ "news": "Добро пожаловать в ApocaLife!\nМир начинается в средневековье: страны, столицы, города и деревни живут и развиваются сами.\nМеню ApocaLife — клавиша J."
+}

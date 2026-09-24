@@ -1,0 +1,180 @@
+{
+	id: "DD460574336543CB"
+	group: ""
+	order_index: 2L
+	filename: "progress"
+	title: "Прогресс"
+	icon: "minecraft:clock"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "3CE1B34CDBFD9304"
+			title: "Промышленная эпоха"
+			icon: "minecraft:piston"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Изучите в университете ветку «Эпохи» до Промышленной эпохи. Появятся поезда, электричество, первые ружья."
+			]
+			tasks: [
+				{
+					id: "70EB8FB1589D0F51"
+					type: "advancement"
+					advancement: "apocalife:story/era_industrial"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3ADCE4F5C8E962EA"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "D98BD289A22323E3"
+			title: "Железная дорога"
+			icon: "create:track"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Железнодорожные мастерские делают рельсы и поезда Create. Соберите 32 рельса."
+			]
+			tasks: [
+				{
+					id: "E322DCBA2C596BD2"
+					type: "item"
+					item: "create:track"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "6795B8BB963AD2F5"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+			dependencies: [
+				"3CE1B34CDBFD9304"
+			]
+		}
+		{
+			id: "FAC17F89A5B38086"
+			title: "Электричество"
+			icon: "createaddition:electric_motor"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"Промышленные мастерские делают провода и моторы. Добудьте электромотор."
+			]
+			tasks: [
+				{
+					id: "0FB4303283821599"
+					type: "item"
+					item: "createaddition:electric_motor"
+				}
+			]
+			rewards: [
+				{
+					id: "A9B409BE9BE80F49"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+			dependencies: [
+				"3CE1B34CDBFD9304"
+			]
+		}
+		{
+			id: "41B63396A1232368"
+			title: "Первое ружьё"
+			icon: "minecraft:iron_ingot"
+			x: 2.0d
+			y: 3.0d
+			description: [
+				"Оружейник делает огнестрел своей эпохи. Добудьте любое ружьё TaCZ."
+			]
+			tasks: [
+				{
+					id: "191195B08F57F834"
+					type: "item"
+					item: "tacz:modern_kinetic_gun"
+					match_nbt: false
+				}
+			]
+			rewards: [
+				{
+					id: "C56EEC278BAD6EEA"
+					type: "item"
+					item: "tacz:ammo"
+				}
+			]
+			dependencies: [
+				"3CE1B34CDBFD9304"
+			]
+		}
+		{
+			id: "882634DFE38386C4"
+			title: "Современность"
+			icon: "minecraft:redstone_lamp"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Изучите Современность. Заводы, автомобили, самолёты — и новые опасности."
+			]
+			tasks: [
+				{
+					id: "88D71E1E36F83816"
+					type: "advancement"
+					advancement: "apocalife:story/era_modern"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "C265D162AA572F2D"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5L
+				}
+			]
+			dependencies: [
+				"D98BD289A22323E3"
+				"FAC17F89A5B38086"
+				"41B63396A1232368"
+			]
+		}
+		{
+			id: "598A283ABD159E9E"
+			title: "Слухи о лаборатории"
+			icon: "minecraft:brewing_stand"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"В новых землях появились лаборатории за бетонными стенами. Говорят, там работают с чем-то опасным."
+				""
+				"Когда в мире построят хотя бы два завода оружия или техники, случится то, чего все боятся."
+			]
+			tasks: [
+				{
+					id: "B99ED3F638BAB1EB"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "2D61D9571A97DD80"
+					type: "item"
+					item: "apocalypsenow:bandage"
+					count: 8L
+				}
+			]
+			dependencies: [
+				"882634DFE38386C4"
+			]
+		}
+	]
+}

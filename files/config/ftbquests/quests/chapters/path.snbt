@@ -1,0 +1,128 @@
+{
+	id: "7D8ECFCB26614B40"
+	group: ""
+	order_index: 4L
+	filename: "path"
+	title: "Путь"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "5A43F2356799D24D"
+			title: "Школа"
+			icon: "minecraft:book"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Всё начинается со школы. Утром (7:00–13:00) побудьте на уроке в здании школы любого поселения — минута в день. Три дня — и аттестат ваш."
+			]
+			tasks: [
+				{
+					id: "102D7B21A5E0BE2B"
+					type: "advancement"
+					advancement: "apocalife:story/school_done"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "DBC6BEB76D5898DB"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+				{
+					id: "0C0E76D287567C44"
+					type: "item"
+					item: "minecraft:book"
+					count: 3L
+				}
+			]
+		}
+		{
+			id: "6C3028D1E8756371"
+			title: "Первая работа"
+			icon: "minecraft:emerald"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Выучитесь в университете на профессию (меню J → Учёба) и устройтесь по диплому в любое поселение (меню J → Карьера). Смена — 5 минут в поселении за день, жалованье — из казны."
+			]
+			tasks: [
+				{
+					id: "EBD2F17F2045D593"
+					type: "advancement"
+					advancement: "apocalife:story/first_job"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "A8A9F599172398A9"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+			dependencies: [
+				"5A43F2356799D24D"
+			]
+		}
+		{
+			id: "7B22C78FA818975D"
+			title: "Своя земля"
+			icon: "apocalife:settlement_charter"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"Поселение нельзя основать где попало: купите у посла или наместника грамоту страны, на чьей земле хотите строиться."
+			]
+			tasks: [
+				{
+					id: "18CD6DF9037AC4F6"
+					type: "item"
+					item: "apocalife:settlement_charter"
+				}
+			]
+			rewards: [
+				{
+					id: "9A046F6D645CB2A8"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10L
+				}
+			]
+			dependencies: [
+				"5A43F2356799D24D"
+			]
+		}
+		{
+			id: "88F8F8B00DAAB132"
+			title: "Своя фракция"
+			icon: "minecraft:white_banner"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Объединитесь с друзьями: /apocalife faction create <название>. У фракции — казна, договоры со странами, послы в ваших колониях, союзы и войны."
+			]
+			tasks: [
+				{
+					id: "1B997D5896823B94"
+					type: "advancement"
+					advancement: "apocalife:story/faction_member"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "F08314E07F82D57E"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2L
+				}
+			]
+			dependencies: [
+				"6C3028D1E8756371"
+			]
+		}
+	]
+}

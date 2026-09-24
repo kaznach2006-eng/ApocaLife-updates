@@ -1,0 +1,217 @@
+{
+	id: "5C9496601B520E31"
+	group: ""
+	order_index: 5L
+	filename: "genesis"
+	title: "Генезис"
+	icon: "apocalife:genesis_journal"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "44069CDE4F535BE4"
+			title: "Источник"
+			icon: "minecraft:brewing_stand"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Зараза расползается от одной точки — лаборатории «Генезис». Чем ближе к ней, тем раньше пришли мертвецы."
+				""
+				"Найдите лабораторию (радиус заражения видно в меню J → Страна)."
+			]
+			tasks: [
+				{
+					id: "95BE59AA8023CC1F"
+					type: "advancement"
+					advancement: "apocalife:story/genesis_visited"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "90143B513560F6AB"
+					type: "item"
+					item: "apocalypsenow:medicalkit"
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "91FA27B79F5B766A"
+			title: "Журналы исследований"
+			icon: "apocalife:genesis_journal"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"В сундуках «Генезиса» лежат журналы учёных про штамм Г-7. Соберите три."
+			]
+			tasks: [
+				{
+					id: "C25615AE0F7AB0F6"
+					type: "item"
+					item: "apocalife:genesis_journal"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "CD49A73272487B8E"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 3L
+				}
+			]
+			dependencies: [
+				"44069CDE4F535BE4"
+			]
+		}
+		{
+			id: "76CDEEF36A7FF09B"
+			title: "Образец вакцины"
+			icon: "apocalife:vaccine_sample"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Из трёх журналов, шприца и антибиотиков соберите образец вакцины."
+			]
+			tasks: [
+				{
+					id: "C43CC00B354B4FDE"
+					type: "item"
+					item: "apocalife:vaccine_sample"
+				}
+			]
+			rewards: [
+				{
+					id: "3EE99CF0E0F3CDFB"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2L
+				}
+			]
+			dependencies: [
+				"91FA27B79F5B766A"
+			]
+		}
+		{
+			id: "DEAAE17C25B2D1F5"
+			title: "Концовка: Лекарство"
+			icon: "apocalife:vaccine_sample"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Примените образец в поселении Современности с университетом 3-го уровня. Там наладят производство — заражённых станет в 4 раза меньше, все игроки исцелятся."
+			]
+			tasks: [
+				{
+					id: "C972BED652742914"
+					type: "advancement"
+					advancement: "apocalife:story/ending_cure"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5CEB3BCFD57E41CF"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 20L
+				}
+			]
+			dependencies: [
+				"76CDEEF36A7FF09B"
+			]
+		}
+		{
+			id: "9DD84D2DA54A90F2"
+			title: "Концовка: Выжженная земля"
+			icon: "minecraft:tnt"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"Или сотрите лабораторию с лица земли: взрыв у самого «Генезиса» (C4, динамит, артиллерия). Источник исчезнет, но лекарства не будет — зомби станет вдвое меньше."
+			]
+			tasks: [
+				{
+					id: "5AE8B38FA0F6D6F9"
+					type: "advancement"
+					advancement: "apocalife:story/ending_burn"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "D7707B845A40616A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 20L
+				}
+			]
+			dependencies: [
+				"44069CDE4F535BE4"
+			]
+		}
+		{
+			id: "AB10300F93B38362"
+			title: "Концовка: Альянс"
+			icon: "minecraft:white_banner"
+			x: 2.0d
+			y: 3.0d
+			description: [
+				"Или объедините мир: помирите все страны (отношения ≥ 40 у каждой пары). Армии вместе потеснят орды."
+				""
+				"Отношения растут от заданий гильдии и службы в армии."
+			]
+			tasks: [
+				{
+					id: "A69492EBA7F83EE3"
+					type: "advancement"
+					advancement: "apocalife:story/ending_alliance"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1628FFF70E9BD346"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 20L
+				}
+			]
+			dependencies: [
+				"44069CDE4F535BE4"
+			]
+		}
+		{
+			id: "EA62C16C3E695BC1"
+			title: "После конца"
+			icon: "minecraft:nether_star"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Судьба мира решена — но жизнь продолжается. Стройте, торгуйте, развивайте свои города."
+			]
+			tasks: [
+				{
+					id: "3A2CFD912662F186"
+					type: "advancement"
+					advancement: "apocalife:story/ending_any"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "34D2F2C359E062A8"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 10L
+				}
+				{
+					id: "033D21CF3DE72143"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 16L
+				}
+			]
+		}
+	]
+}

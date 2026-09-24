@@ -1,0 +1,151 @@
+{
+	id: "C18B6D2E80A29F3E"
+	group: ""
+	order_index: 1L
+	filename: "shadows"
+	title: "Тени на дорогах"
+	icon: "minecraft:iron_sword"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "6FFB845004352E04"
+			title: "Разбойники"
+			icon: "minecraft:crossbow"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"На дорогах и в лагерях за частоколом прячутся бандиты. Лагерь легко узнать по палаткам и костру."
+				""
+				"Одолейте пятерых."
+			]
+			tasks: [
+				{
+					id: "AE7A10B0C404C7A7"
+					type: "kill"
+					entity: "apocalife:bandit"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "43AAA0EF34950861"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "5C6383B71A017D93"
+			title: "Стрелки из леса"
+			icon: "minecraft:bow"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Лучники-бандиты бьют издалека. Щит и доспех помогут подобраться ближе."
+			]
+			tasks: [
+				{
+					id: "45B416DFB537FCBF"
+					type: "kill"
+					entity: "apocalife:bandit_archer"
+					value: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "CA30D6B7D3970FE7"
+					type: "item"
+					item: "magistuarmory:iron_heatershield"
+				}
+			]
+			dependencies: [
+				"6FFB845004352E04"
+			]
+		}
+		{
+			id: "C81ABD31BB9FA246"
+			title: "Ренегат"
+			icon: "minecraft:skeleton_skull"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Ренегаты — бывшие солдаты, опытные и хорошо вооружённые. Встречаются в опасных землях."
+			]
+			tasks: [
+				{
+					id: "6D969381474092C5"
+					type: "kill"
+					entity: "apocalife:renegade"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "C3944BCFBB023F16"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+				}
+			]
+			dependencies: [
+				"5C6383B71A017D93"
+			]
+		}
+		{
+			id: "3508E05713490B09"
+			title: "Рыцарский доспех"
+			icon: "magistuarmory:knight_chestplate"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"Закажите у кузнеца (или купите на оружейном прилавке) рыцарскую кирасу."
+			]
+			tasks: [
+				{
+					id: "DFA73EF5DCD1C92C"
+					type: "item"
+					item: "magistuarmory:knight_chestplate"
+				}
+			]
+			rewards: [
+				{
+					id: "D0BCFD417D160825"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10L
+				}
+			]
+			dependencies: [
+				"6FFB845004352E04"
+			]
+		}
+		{
+			id: "C7FC75C6AF01E509"
+			title: "Стража"
+			icon: "minecolonies:blockhutguardtower"
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"Постройте в поселении сторожевую башню или казармы. Стража сама получает оружие и доспехи своей эпохи — за счёт казны."
+			]
+			tasks: [
+				{
+					id: "435D741753201A1A"
+					type: "item"
+					item: "minecolonies:blockhutguardtower"
+				}
+			]
+			rewards: [
+				{
+					id: "561AC9001A644C10"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 10L
+				}
+			]
+			dependencies: [
+				"3508E05713490B09"
+			]
+		}
+	]
+}

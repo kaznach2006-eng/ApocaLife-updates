@@ -1,0 +1,156 @@
+{
+	id: "B17158B9354F1C1F"
+	group: ""
+	order_index: 3L
+	filename: "outbreak"
+	title: "После вспышки"
+	icon: "minecraft:zombie_head"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "33DFF720E8B1F494"
+			title: "Вспышка"
+			icon: "minecraft:zombie_head"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Это началось. Мёртвые встают. Поселения без обороны не выстоят."
+			]
+			tasks: [
+				{
+					id: "F005C0A34C1F576A"
+					type: "advancement"
+					advancement: "apocalife:story/outbreak"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "C60BAE2AA8F553AC"
+					type: "item"
+					item: "apocalypsenow:medicalkit"
+				}
+				{
+					id: "57D4A6C91C10E585"
+					type: "item"
+					item: "apocalypsenow:mre"
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "903C92991BBB586C"
+			title: "Выжить"
+			icon: "minecraft:rotten_flesh"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Упокойте двадцать ходячих."
+			]
+			tasks: [
+				{
+					id: "27A2D356DCF793E4"
+					type: "kill"
+					entity: "apocalife:walker"
+					value: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "136BF766BF515E63"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2L
+				}
+			]
+			dependencies: [
+				"33DFF720E8B1F494"
+			]
+		}
+		{
+			id: "925D20688F188D22"
+			title: "Бегуны"
+			icon: "minecraft:leather_boots"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Быстрые заражённые — самые опасные в открытом поле."
+			]
+			tasks: [
+				{
+					id: "3C059FCBE00ADE6A"
+					type: "kill"
+					entity: "apocalife:runner"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "4C0EDBC8DD55123E"
+					type: "item"
+					item: "superbwarfare:armor_plate"
+					count: 2L
+				}
+			]
+			dependencies: [
+				"903C92991BBB586C"
+			]
+		}
+		{
+			id: "094F0C7E29B0D601"
+			title: "Громила"
+			icon: "minecraft:iron_block"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Огромный заражённый выдерживает очередь из автомата. Нужна тяжёлая огневая мощь."
+			]
+			tasks: [
+				{
+					id: "DA36E1DB54F1B099"
+					type: "kill"
+					entity: "apocalife:brute"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "C03000116570DC6F"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 5L
+				}
+			]
+			dependencies: [
+				"925D20688F188D22"
+			]
+		}
+		{
+			id: "7864366C2ED77761"
+			title: "Аптечка"
+			icon: "apocalypsenow:medicalkit"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"Раны и заражение лечат аптечки и антибиотики — ищите их в лабораториях и на военных базах."
+			]
+			tasks: [
+				{
+					id: "544B9BD253D05170"
+					type: "item"
+					item: "apocalypsenow:antibiotics"
+				}
+			]
+			rewards: [
+				{
+					id: "33AC77E6C817DB84"
+					type: "item"
+					item: "apocalypsenow:medicalkit"
+				}
+			]
+			dependencies: [
+				"33DFF720E8B1F494"
+			]
+		}
+	]
+}
