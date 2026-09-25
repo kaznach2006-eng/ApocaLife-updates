@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609251324",
+ "version": "0.1.0+202609251427",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -90,6 +90,12 @@
    "sha1": "7bfd0d59448291913e1bae2ea928081369b30bbf",
    "size": 2056,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/recruits-client.toml"
+  },
+  {
+   "path": "config/tectonic.json",
+   "sha1": "3eddcec2e81c4c33595b6c227397d53acdf87047",
+   "size": 1267,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/tectonic.json"
   },
   {
    "path": "defaultconfigs/minecolonies-server.toml",
@@ -213,8 +219,8 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "27f74af241cc8a41fb93567c3d5e38e6e90f0084",
-   "size": 6841760,
+   "sha1": "a1cb6068a48702b5f7379d6a24ec6ea261282ad0",
+   "size": 6846687,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
@@ -452,6 +458,12 @@
    "url": "https://cdn.modrinth.com/data/wvMc8AJt/versions/eAALa47O/lightmanscurrency-1.20.1-2.3.0.5.jar"
   },
   {
+   "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar",
+   "sha1": "d1a755de84ee5d8910ff1e65e815473056e93ece",
+   "size": 476347,
+   "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/srPoHKt8/lithostitched-forge-1.20.1-1.4.11.jar"
+  },
+  {
    "path": "mods/lootr-forge-1.20-0.7.35.94.jar",
    "sha1": "1ec77a7df8adbf3290a296bf25b8f99f37a60020",
    "size": 463485,
@@ -576,6 +588,12 @@
    "sha1": "bddafeea4c9c1132ed720c30fbaedfe5ab25e846",
    "size": 57465167,
    "url": "https://cdn.modrinth.com/data/SzzJttH8/versions/yOVIzIJR/tacz-1.20.1-1.1.8-hotfix.jar"
+  },
+  {
+   "path": "mods/tectonic-3.0.17-forge-1.20.1.jar",
+   "sha1": "07bfe13bc1bd75a6277f3d62bf92a549b33067a9",
+   "size": 322575,
+   "url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/KLmvRxwh/tectonic-3.0.17-forge-1.20.1.jar"
   },
   {
    "path": "mods/trotting_wagons-1.0.4.jar",
