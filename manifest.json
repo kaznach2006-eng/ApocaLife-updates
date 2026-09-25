@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609250207",
+ "version": "0.1.0+202609251253",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -12,12 +12,6 @@
    "sha1": "3068f9b6d616d3fbe4d00dade39a1545b975ad14",
    "size": 2110,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/Apocalypse%20Now%20Config.toml"
-  },
-  {
-   "path": "config/Undead_mobs.toml",
-   "sha1": "a7cd0e949f4a8ae3b86bd3147733611c41c6233e",
-   "size": 3266,
-   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/Undead_mobs.toml"
   },
   {
    "path": "config/apocalife-common.toml",
@@ -80,16 +74,34 @@
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/hordes-common.toml"
   },
   {
+   "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml",
+   "sha1": "d710fc010fbf8f40ad336027a3d671dc643da54a",
+   "size": 33719,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml"
+  },
+  {
    "path": "config/mtsconfig.json",
    "sha1": "fdccc96518ca674270a37f8f05b95c4e82ea6777",
    "size": 12953,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/mtsconfig.json"
   },
   {
+   "path": "config/recruits-client.toml",
+   "sha1": "7bfd0d59448291913e1bae2ea928081369b30bbf",
+   "size": 2056,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/recruits-client.toml"
+  },
+  {
    "path": "defaultconfigs/minecolonies-server.toml",
    "sha1": "a5ab545f37049b19efd5471f18eca63f39337fb6",
    "size": 311,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/defaultconfigs/minecolonies-server.toml"
+  },
+  {
+   "path": "defaultconfigs/recruits-server.toml",
+   "sha1": "8a4bc7186e6d2d6512dbca44262411fa0f1b5037",
+   "size": 15625,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/defaultconfigs/recruits-server.toml"
   },
   {
    "path": "mods/Atlas Lib-1.20.1-1.1.12.jar",
@@ -158,12 +170,6 @@
    "url": "https://cdn.modrinth.com/data/ZzjhlDgM/versions/7Uk6lWkU/Steam_Rails-1.7.3%2Bforge-mc1.20.1.jar"
   },
   {
-   "path": "mods/THEUNDEADREVAMPED_2.1e_1.20.1.jar",
-   "sha1": "0fab0e0074770bb7aefbdfc896db13e5b7e28bef",
-   "size": 8064609,
-   "url": "https://cdn.modrinth.com/data/hhfNpvRV/versions/2AKAEU8N/THEUNDEADREVAMPED_2.1e_1.20.1.jar"
-  },
-  {
    "path": "mods/The-Hordes-1.20.1-1.6.3i-all.jar",
    "sha1": "cb28f5be21577618c05cef203b1eb06ecddb3cb1",
    "size": 619598,
@@ -207,8 +213,8 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "83bb3fda728c86edb77bbd13651ef2e0fd711bb0",
-   "size": 6811725,
+   "sha1": "ba07de836e811fbdca570f283b2208acaa32d1cd",
+   "size": 6840846,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
@@ -512,12 +518,6 @@
    "url": "https://cdn.modrinth.com/data/oFmiHncm/versions/pkOE3RqO/nhatjs_furniture_forge%2B1.20.1-1.0.5.jar"
   },
   {
-   "path": "mods/open-parties-and-claims-forge-1.20.1-0.31.6.jar",
-   "sha1": "cb5a9d300cdc49b9a7c61d27fbc17d8a7b5c3810",
-   "size": 1830866,
-   "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/3aml2k9o/open-parties-and-claims-forge-1.20.1-0.31.6.jar"
-  },
-  {
    "path": "mods/puffish_skills-0.19.1-1.20-forge.jar",
    "sha1": "3b1f562f272dfcb735d40c3d879fb21dcbb06588",
    "size": 647254,
@@ -576,12 +576,6 @@
    "sha1": "bddafeea4c9c1132ed720c30fbaedfe5ab25e846",
    "size": 57465167,
    "url": "https://cdn.modrinth.com/data/SzzJttH8/versions/yOVIzIJR/tacz-1.20.1-1.1.8-hotfix.jar"
-  },
-  {
-   "path": "mods/towntalk-1.20.1-1.1.0.jar",
-   "sha1": "03e6488b9e762888d1d187d5cf73a60695b63c52",
-   "size": 49194778,
-   "url": "https://mediafilez.forgecdn.net/files/5355/511/towntalk-1.20.1-1.1.0.jar"
   },
   {
    "path": "mods/trotting_wagons-1.0.4.jar",
