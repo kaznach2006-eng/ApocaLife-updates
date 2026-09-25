@@ -222,10 +222,10 @@ debug = false
 [world]
 	#Distance (blocks) from the central country (Veloria) to the other capitals
 	#Range: 500 ~ 100000
-	countryDistance = 3000
+	countryDistance = 2500
 	#Big cities per country besides the capital (players start near one of them)
 	#Range: 0 ~ 10
-	citiesPerCountry = 3
+	citiesPerCountry = 5
 	#Radius around capitals and big cities that is always a GREEN (safe) zone
 	#Range: 0 ~ 5000
 	citySafeRadius = 320
@@ -236,7 +236,10 @@ debug = false
 	countryGoodsDiscount = 0.85
 	#Villages around each city and capital (they are subordinate to it)
 	#Range: 0 ~ 6
-	villagesPerCity = 2
+	villagesPerCity = 3
+	#Hamlets (small farmsteads) around each village
+	#Range: 0 ~ 6
+	hamletsPerVillage = 2
 	#Lay roads between villages, cities and capitals (paved by era, near players)
 	roads = true
 	#Found MineColonies colonies without a player owner on the map's capitals, cities and villages
