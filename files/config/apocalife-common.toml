@@ -259,7 +259,7 @@ debug = false
 	#Price of a settlement charter (0 = founding a colony is free). A player needs the charter of the
 	#country whose land it is to place his first town hall; ambassadors and governors sell it
 	#Range: 0 ~ 1000000
-	charterPrice = 400
+	charterPrice = 2500
 	#Players must finish school (morning lessons in a school building) before university
 	playerSchool = true
 	#Only players with a pilot diploma can fly aircraft (others buy flights at airports)

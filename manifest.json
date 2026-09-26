@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609270104",
+ "version": "0.1.0+202609270116",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -15,8 +15,8 @@
   },
   {
    "path": "config/apocalife-common.toml",
-   "sha1": "a0395155a1257f34722ca7a063b7b1ac86e4a811",
-   "size": 13226,
+   "sha1": "d3984979dd0bf2e92742500ec49e5646258af5db",
+   "size": 13227,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/apocalife-common.toml"
   },
   {
@@ -84,6 +84,12 @@
    "sha1": "d710fc010fbf8f40ad336027a3d671dc643da54a",
    "size": 33719,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml"
+  },
+  {
+   "path": "config/lightmanscurrency-common.txt",
+   "sha1": "a2787667f795813d457317cda2eb0a6766966fb6",
+   "size": 17225,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/lightmanscurrency-common.txt"
   },
   {
    "path": "config/mtsconfig.json",
@@ -303,8 +309,8 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "4f0da35bf7a7f7b486768758f252bc42e6075dc3",
-   "size": 6971954,
+   "sha1": "652fc2dbdc1a5c6c7c3a82377b06e69a34d67c4c",
+   "size": 6978476,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
