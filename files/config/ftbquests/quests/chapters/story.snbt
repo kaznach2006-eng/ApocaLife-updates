@@ -1,0 +1,348 @@
+{
+	id: "3D217CBB4040ADB9"
+	group: ""
+	order_index: -1L
+	filename: "story"
+	title: "История мира"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	quests: [
+		{
+			id: "0BDF701612AA21BA"
+			title: "Акт I. Новый гражданин"
+			icon: "minecraft:white_banner"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Средние века. Шесть стран делят материк, и одна из них теперь ваш дом."
+				""
+				"Выберите страну — вас высадят у одного из её поселений."
+			]
+			tasks: [
+				{
+					id: "9616F743040C6515"
+					type: "advancement"
+					advancement: "apocalife:story/chose_country"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0374C244560C47B0"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 10L
+				}
+			]
+		}
+		{
+			id: "D9B44B433AA2133A"
+			title: "Дорога в столицу"
+			icon: "minecraft:compass"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Столица — сердце страны: там университет, послы и самые богатые рынки."
+				""
+				"Доберитесь до столицы своей страны."
+			]
+			dependencies: [
+				"0BDF701612AA21BA"
+			]
+			tasks: [
+				{
+					id: "D7ECFBB5816F7677"
+					type: "advancement"
+					advancement: "apocalife:story/visited_capital"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "EFACBE466C64738A"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "A08E60FB2F50C463"
+			title: "Грамота"
+			icon: "minecraft:book"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"Кто умеет читать и считать, тот не пропадёт."
+				""
+				"Окончите школу: три утренних урока, сидя за партой."
+			]
+			dependencies: [
+				"0BDF701612AA21BA"
+			]
+			tasks: [
+				{
+					id: "1D7F5EBC093FF4C8"
+					type: "advancement"
+					advancement: "apocalife:story/school_done"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5B82BB92E243206F"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 3L
+				}
+			]
+		}
+		{
+			id: "7ECC6AA75F10CF39"
+			title: "Гильдия авантюристов"
+			icon: "minecraft:iron_sword"
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Гильдия платит за смелость: охота на бандитов, доставка, зачистка."
+				""
+				"Выполните задание гильдии."
+			]
+			dependencies: [
+				"D9B44B433AA2133A"
+			]
+			tasks: [
+				{
+					id: "3F212A18C4B6DD3C"
+					type: "advancement"
+					advancement: "apocalife:story/guild_contract"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "F0EE940DE62DEA40"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 3L
+				}
+			]
+		}
+		{
+			id: "39C7754BDA8E7DE6"
+			title: "Своё дело"
+			icon: "minecraft:iron_pickaxe"
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"Городам нужны руки. Вакансии — у доски гильдии, по нуждам горожан, наместника, ферм и государства."
+				""
+				"Устройтесь на работу."
+			]
+			dependencies: [
+				"A08E60FB2F50C463"
+			]
+			tasks: [
+				{
+					id: "B054951920ECBC28"
+					type: "advancement"
+					advancement: "apocalife:story/first_job"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "8D5DAF06F2D69347"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 3L
+				}
+			]
+		}
+		{
+			id: "68AC0FE9BFAAC9D5"
+			title: "Диплом"
+			icon: "minecraft:writable_book"
+			x: 6.0d
+			y: 1.5d
+			description: [
+				"Университет открывает профессии: врач, инженер, учёный, пилот."
+				""
+				"Получите диплом университета."
+			]
+			dependencies: [
+				"39C7754BDA8E7DE6"
+			]
+			tasks: [
+				{
+					id: "0D75D59FB3D7D96E"
+					type: "advancement"
+					advancement: "apocalife:story/diploma"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "E91D97B2402D8310"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 1L
+				}
+			]
+		}
+		{
+			id: "4F500064B847577C"
+			title: "Акт II. Дым фабрик"
+			icon: "minecraft:furnace"
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"Страны учатся, строят мастерские и заводы — и однажды весь мир входит в эпоху промышленности."
+				""
+				"Помогайте поселениям расти: учёба, работа, торговля. Задание выполнится, когда мир дойдёт до промышленности."
+			]
+			dependencies: [
+				"7ECC6AA75F10CF39"
+				"68AC0FE9BFAAC9D5"
+			]
+			tasks: [
+				{
+					id: "8B1C6F25B7299A78"
+					type: "advancement"
+					advancement: "apocalife:story/world_industrial"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0636729BBC903B75"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 1L
+				}
+			]
+		}
+		{
+			id: "D87F92D09C997DE7"
+			title: "Сила в единстве"
+			icon: "minecraft:red_banner"
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"В новом мире в одиночку не выжить. Вступите во фракцию или создайте свою (/apocalife faction create)."
+			]
+			dependencies: [
+				"4F500064B847577C"
+			]
+			tasks: [
+				{
+					id: "947F2EA4337A7341"
+					type: "advancement"
+					advancement: "apocalife:story/faction_member"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "16DFFDDACADC8F3D"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 1L
+				}
+			]
+		}
+		{
+			id: "C412679799FF13AB"
+			title: "Акт III. Новое время"
+			icon: "minecraft:redstone"
+			x: 12.0d
+			y: 0.0d
+			description: [
+				"Электричество, моторы, самолёты. В лаборатории «Генезис» учёные шести стран ищут лекарство от старости."
+				""
+				"Задание выполнится, когда мир дойдёт до Нового времени."
+			]
+			dependencies: [
+				"4F500064B847577C"
+			]
+			tasks: [
+				{
+					id: "B2519C67737D9244"
+					type: "advancement"
+					advancement: "apocalife:story/world_modern"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "8E62E3FA2DB9E7D3"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "317E7C4629C7F33E"
+			title: "Слухи о «Генезисе»"
+			icon: "minecraft:glass_bottle"
+			x: 14.0d
+			y: 0.0d
+			description: [
+				"Говорят, там вывели штамм Г-7. Говорят, подопытные не умирают даже после смерти."
+				""
+				"Найдите лабораторию «Генезис»."
+			]
+			dependencies: [
+				"C412679799FF13AB"
+			]
+			tasks: [
+				{
+					id: "CB1A04D8DF9937C3"
+					type: "advancement"
+					advancement: "apocalife:story/genesis_visited"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "AE05A6A9607A88DC"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "8631B4561FEF7024"
+			title: "Акт IV. Вспышка"
+			icon: "minecraft:rotten_flesh"
+			x: 16.0d
+			y: 0.0d
+			description: [
+				"Штамм Г-7 вырвался наружу. Мёртвые встают, зараза расходится от «Генезиса»."
+				""
+				"Выживите. Дальше — главы «Вспышка» и «Генезис»: вакцина, взрыв или союз всех стран."
+			]
+			dependencies: [
+				"C412679799FF13AB"
+			]
+			tasks: [
+				{
+					id: "58506DC152B386AB"
+					type: "advancement"
+					advancement: "apocalife:story/outbreak"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "BDCE00647BCDAB85"
+					type: "item"
+					item: "apocalypsenow:bandage"
+					count: 8L
+				}
+			]
+		}
+	]
+}

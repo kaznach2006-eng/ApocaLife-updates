@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609260920",
+ "version": "0.1.0+202609270001",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -62,6 +62,12 @@
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/shadows.snbt"
   },
   {
+   "path": "config/ftbquests/quests/chapters/story.snbt",
+   "sha1": "b337b3cf476efe0fc8b9e565ef9087208404a09c",
+   "size": 8121,
+   "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/story.snbt"
+  },
+  {
    "path": "config/ftbquests/quests/data.snbt",
    "sha1": "565e3ddc53e3b2787e37fbd372e2d6c3b5a37d9f",
    "size": 409,
@@ -93,8 +99,8 @@
   },
   {
    "path": "config/tectonic.json",
-   "sha1": "3eddcec2e81c4c33595b6c227397d53acdf87047",
-   "size": 1267,
+   "sha1": "5d51c40b944a12cc1d8f884193f4c7602ba90704",
+   "size": 1268,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/tectonic.json"
   },
   {
@@ -120,6 +126,12 @@
    "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
    "size": 19499,
    "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/ihWybkI9/AttributeFix-Forge-1.20.1-21.0.5.jar"
+  },
+  {
+   "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+   "sha1": "f6ffd20b9825c4a69d93af7caed701a60bf804b5",
+   "size": 22381010,
+   "url": "https://cdn.modrinth.com/data/HXF82T3G/versions/jxUqRzSD/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
   },
   {
    "path": "mods/BrewinAndChewin-1.20.1-3.2.1.jar",
@@ -206,6 +218,12 @@
    "url": "https://cdn.modrinth.com/data/ZzjhlDgM/versions/7Uk6lWkU/Steam_Rails-1.7.3%2Bforge-mc1.20.1.jar"
   },
   {
+   "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+   "sha1": "b3dbaf1aac31601b9efb19e4c67646750041968a",
+   "size": 107533,
+   "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/zGconCHG/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+  },
+  {
    "path": "mods/The-Hordes-1.20.1-1.6.3i-all.jar",
    "sha1": "cb28f5be21577618c05cef203b1eb06ecddb3cb1",
    "size": 619598,
@@ -278,9 +296,15 @@
    "url": "https://cdn.modrinth.com/data/v8jzRtAt/versions/PhNy7dJx/%5B1.20.1%5D%20SecurityCraft%20v1.10.2.1.jar"
   },
   {
+   "path": "mods/alexsmobs-1.22.9.jar",
+   "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+   "size": 26350793,
+   "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar"
+  },
+  {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "a4e5a9420c96a17d25b17a9d1f7d50e118709d8e",
-   "size": 6931079,
+   "sha1": "625c330b4facd2d84f80031f0a26678be151db92",
+   "size": 6950117,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
@@ -324,6 +348,12 @@
    "sha1": "898abd9e337ef1c677ce93f5589497a09c7e9850",
    "size": 594191,
    "url": "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar"
+  },
+  {
+   "path": "mods/citadel-2.6.3-1.20.1.jar",
+   "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+   "size": 3185275,
+   "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar"
   },
   {
    "path": "mods/cloth-config-11.1.136-forge.jar",
@@ -374,6 +404,12 @@
    "url": "https://cdn.modrinth.com/data/cl223EMc/versions/DOsSK4NK/cristellib-1.1.6-forge.jar"
   },
   {
+   "path": "mods/crittersandcompanions-forge-1.20.1-2.7.1.jar",
+   "sha1": "914802e55d21ffb6221875e47838f8175bc28f2f",
+   "size": 2115160,
+   "url": "https://cdn.modrinth.com/data/Yd4wb5wZ/versions/HurxN6RE/crittersandcompanions-forge-1.20.1-2.7.1.jar"
+  },
+  {
    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
    "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
    "size": 398066,
@@ -408,6 +444,12 @@
    "sha1": "e9cd504114a48303e6520ed643f20c62976274a8",
    "size": 1092567,
    "url": "https://cdn.modrinth.com/data/uTGjf7vA/versions/swcRILIX/easy_npc_config_ui-forge-1.20.1-7.12.1.jar"
+  },
+  {
+   "path": "mods/ecologics-forge-1.20.1-2.2.7.jar",
+   "sha1": "733bf5965a3b7153fa261051a29f700258f9715c",
+   "size": 1865435,
+   "url": "https://cdn.modrinth.com/data/NCKpPR0Z/versions/jB0V9NeZ/ecologics-forge-1.20.1-2.2.7.jar"
   },
   {
    "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
@@ -608,6 +650,12 @@
    "url": "https://cdn.modrinth.com/data/oFmiHncm/versions/pkOE3RqO/nhatjs_furniture_forge%2B1.20.1-1.0.5.jar"
   },
   {
+   "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+   "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+   "size": 2851119,
+   "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
+  },
+  {
    "path": "mods/puffish_skills-0.19.1-1.20-forge.jar",
    "sha1": "3b1f562f272dfcb735d40c3d879fb21dcbb06588",
    "size": 647254,
@@ -722,10 +770,22 @@
    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/rlPmwaQX/xaeroworldmap-forge-1.20.1-1.46.0.jar"
   },
   {
+   "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+   "sha1": "644731e321c53a35a0b3177a3cc6347fe38002f4",
+   "size": 1105891,
+   "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/sCWgXDYQ/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar"
+  },
+  {
    "path": "mods/zombieawareness-1.20.1-1.13.1.jar",
    "sha1": "173c30c8918da57be9398b3687ea19a81455c2c1",
    "size": 291139,
    "url": "https://cdn.modrinth.com/data/mMTOWOaA/versions/vmo9rLxO/zombieawareness-1.20.1-1.13.1.jar"
+  },
+  {
+   "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+   "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+   "size": 553397,
+   "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip"
   }
  ],
  "server": "130.61.182.127:25565",
