@@ -344,5 +344,184 @@
 				}
 			]
 		}
+		{
+			id: "674D685F79C9A3C3"
+			title: "Форт Кривого Яна"
+			icon: "minecraft:iron_sword"
+			x: 1.0d
+			y: 2.0d
+			description: [
+				"Канцлер Хальвар просит разгромить разбойников, что грабят обозы на тракте."
+				""
+				"Место отмечено справа вверху экрана."
+			]
+			tasks: [
+				{
+					id: "79E9B8E491C54D84"
+					type: "advancement"
+					advancement: "apocalife:story/fort"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "F6406B0E7CB097CC"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+		}
+		{
+			id: "045A0C383F2F8610"
+			title: "Склеп предтеч"
+			icon: "minecraft:chiseled_polished_blackstone"
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"Архивариус Ида нашла склеп по старым картам. Там лежат чёрные таблички предтеч."
+				""
+				"Добудьте табличку и не трогайте её голыми руками."
+			]
+			dependencies: [
+				"674D685F79C9A3C3"
+			]
+			tasks: [
+				{
+					id: "C5BB2575A1C990A8"
+					type: "advancement"
+					advancement: "apocalife:story/crypt"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1F952307580A4430"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+		}
+		{
+			id: "A8D611DCD8FD00F5"
+			title: "Семя"
+			icon: "minecraft:written_book"
+			x: 5.0d
+			y: 2.0d
+			description: [
+				"Табличка рассказала, как погиб мир предтеч."
+				""
+				"Выполнится после разговора с Идой."
+			]
+			dependencies: [
+				"045A0C383F2F8610"
+			]
+			tasks: [
+				{
+					id: "8FA42608A87DF249"
+					type: "advancement"
+					advancement: "apocalife:story/act1"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "F0352CBA6E9E2170"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+		}
+		{
+			id: "F958307A09CA5B1E"
+			title: "Завод «Генезиса»"
+			icon: "minecraft:blast_furnace"
+			x: 7.0d
+			y: 2.0d
+			description: [
+				"Мира Остен из «Генезиса» просит отбить завод у налётчиков."
+				""
+				"Начнётся, когда мир войдёт в промышленную эпоху."
+			]
+			dependencies: [
+				"A8D611DCD8FD00F5"
+			]
+			tasks: [
+				{
+					id: "1F8D16C7E6C5F62A"
+					type: "advancement"
+					advancement: "apocalife:story/factory"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "CB29E932ABE06C6C"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+		}
+		{
+			id: "8B61BAF4101BA242"
+			title: "Проект Г-7"
+			icon: "minecraft:paper"
+			x: 9.0d
+			y: 2.0d
+			description: [
+				"В ящиках на заводе нашлись таблички и бумаги с печатью «Проект Г-7»."
+			]
+			dependencies: [
+				"F958307A09CA5B1E"
+			]
+			tasks: [
+				{
+					id: "683FB60EB01D256E"
+					type: "advancement"
+					advancement: "apocalife:story/act2"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "06E0A7A31ECD6F26"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+		}
+		{
+			id: "5CA1C4F3181A9FDB"
+			title: "Учёный Лев Карн"
+			icon: "minecraft:glass_bottle"
+			x: 11.0d
+			y: 2.0d
+			description: [
+				"В Новое время найдите лабораторию «Генезиса» и поговорите с Львом Карном."
+			]
+			dependencies: [
+				"8B61BAF4101BA242"
+			]
+			tasks: [
+				{
+					id: "3D7A435039094758"
+					type: "advancement"
+					advancement: "apocalife:story/act3"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1B8A7E2C81C68402"
+					type: "item"
+					item: "lightmanscurrency:coin_iron"
+					count: 5L
+				}
+			]
+		}
 	]
 }

@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609271604",
+ "version": "0.1.0+202609271714",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -63,8 +63,8 @@
   },
   {
    "path": "config/ftbquests/quests/chapters/story.snbt",
-   "sha1": "b337b3cf476efe0fc8b9e565ef9087208404a09c",
-   "size": 8121,
+   "sha1": "24cf5970037916adc22656a34ec7eec8ffe122d3",
+   "size": 12045,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/config/ftbquests/quests/chapters/story.snbt"
   },
   {
@@ -309,8 +309,8 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "2c5093d0c892132d9289ea0137b207993c742258",
-   "size": 8172489,
+   "sha1": "56b518d243d5d8c7217748fbc44f0a92765928f1",
+   "size": 11312816,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
