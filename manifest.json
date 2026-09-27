@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609271906",
+ "version": "0.1.0+202609272154",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -144,6 +144,12 @@
    "sha1": "b11a91386ef9da2569b69fd4c229b1c31dcc2eb9",
    "size": 1206255,
    "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/9myDFPCD/BrewinAndChewin-1.20.1-3.2.1.jar"
+  },
+  {
+   "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+   "sha1": "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c",
+   "size": 20300,
+   "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar"
   },
   {
    "path": "mods/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar",
@@ -308,9 +314,15 @@
    "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar"
   },
   {
+   "path": "mods/almanac-1.20.x-forge-1.0.2.jar",
+   "sha1": "f0b711df59cd589b088e536ca4134c5e6e73fd58",
+   "size": 15906,
+   "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/DnzrwvfD/almanac-1.20.x-forge-1.0.2.jar"
+  },
+  {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "efb4aa3860c90e7fbc4c9293f39e01c78481eb8a",
-   "size": 11323769,
+   "sha1": "911a5e8c21d5ce02f5c2422cc2030495dc5d775e",
+   "size": 11327982,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
@@ -464,6 +476,12 @@
    "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
   },
   {
+   "path": "mods/entityculling-forge-1.11.2-mc1.20.1.jar",
+   "sha1": "856ef2e3c5bbde87fa5f06515c42fbca8af24a74",
+   "size": 1515048,
+   "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/HPDH6g5B/entityculling-forge-1.11.2-mc1.20.1.jar"
+  },
+  {
    "path": "mods/environmental-1.20.1-4.1.2.jar",
    "sha1": "2c110c43d77841924bb2cf08ae7656a104f951f9",
    "size": 8082615,
@@ -558,6 +576,12 @@
    "sha1": "f92ec8698f4aa48807b01ccfddf4b379cbc9d1e6",
    "size": 3751172,
    "url": "https://cdn.modrinth.com/data/TQr3t8Sb/versions/BsBOQNzX/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
+  },
+  {
+   "path": "mods/letmedespawn-1.20.x-forge-1.5.0.jar",
+   "sha1": "878dd35df02e1e17b7eb16113147f964eda8847f",
+   "size": 14789,
+   "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/1VmupN41/letmedespawn-1.20.x-forge-1.5.0.jar"
   },
   {
    "path": "mods/letsdo-farm_and_charm-forge-1.0.14.jar",
