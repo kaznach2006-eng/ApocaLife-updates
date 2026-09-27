@@ -1,6 +1,6 @@
 {
  "name": "ApocaLife",
- "version": "0.1.0+202609271719",
+ "version": "0.1.0+202609271906",
  "minecraft": "1.20.1",
  "forge": "47.4.23",
  "managed": [
@@ -309,8 +309,8 @@
   },
   {
    "path": "mods/apocalife-0.1.0.jar",
-   "sha1": "0bc7e8ab653a04c2f809d82d386402ecba9a648a",
-   "size": 11315849,
+   "sha1": "efb4aa3860c90e7fbc4c9293f39e01c78481eb8a",
+   "size": 11323769,
    "url": "https://raw.githubusercontent.com/kaznach2006-eng/ApocaLife-updates/main/files/mods/apocalife-0.1.0.jar"
   },
   {
@@ -786,6 +786,12 @@
    "sha1": "173c30c8918da57be9398b3687ea19a81455c2c1",
    "size": 291139,
    "url": "https://cdn.modrinth.com/data/mMTOWOaA/versions/vmo9rLxO/zombieawareness-1.20.1-1.13.1.jar"
+  },
+  {
+   "path": "shaderpacks/BSL_v10.1.8.zip",
+   "sha1": "e89818c8827d0131c102fb480c3c3446624db0df",
+   "size": 1134153,
+   "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/Y68yiql9/BSL_v10.1.8.zip"
   },
   {
    "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
